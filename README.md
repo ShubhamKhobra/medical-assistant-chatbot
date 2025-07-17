@@ -7,7 +7,7 @@ A conversational chatbot that provides **drug safety summaries**, **usage instru
 ## ✨ Features
 
 - ✅ **Live FDA data** using the [OpenFDA API](https://open.fda.gov/)
-- 🧠 **LLM-powered summaries** with [LLaMA 3](https://together.ai/models/llama-3) via Together.ai
+- 🧠 **LLM-powered summaries** with [LLaMA 3](https://www.together.ai/models/nim-llama-3-1-8b-instruct) via Together.ai
 - 💬 Ask about **drug safety, usage, and effects**
 - 🔁 Ask **what medicine to take** for common problems (e.g., “What should I take for a headache?”)
 - 🖥️ Built using Python + Streamlit for a clean UI
@@ -22,7 +22,6 @@ A conversational chatbot that provides **drug safety summaries**, **usage instru
 | **Streamlit**  | Web-based chatbot UI                    |
 | **OpenFDA API**| Fetch drug label data from FDA          |
 | **LLaMA 3**    | Free LLM API from Together.ai           |
-| **dotenv**     | Manage API keys securely                |
 
 ---
 
@@ -31,5 +30,5 @@ A conversational chatbot that provides **drug safety summaries**, **usage instru
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/medical-assistant-chatbot.git
+git clone https://github.com/ShubhamKhobra/medical-assistant-chatbot.git
 cd medical-assistant-chatbot
