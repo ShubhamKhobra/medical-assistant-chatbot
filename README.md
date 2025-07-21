@@ -1,7 +1,9 @@
 # 💊 Medical Information Assistant Chatbot
 
-A conversational chatbot that provides **drug safety summaries**, **usage instructions**, and even **medication suggestions** for common conditions. It combines **real-time FDA data** with the power of **LLaMA 3 (via Together.ai)** to give clear, friendly medical insights — all without requiring OpenAI's paid API.
+A conversational chatbot that provides **drug safety summaries**, **usage instructions**, and even **medication suggestions** for common conditions. It combines **real-time FDA data** with the power of **LLaMA 3 (via Together.ai)** to give clear, friendly medical insights.
 
+
+[Link to the App](https://drug-assistant-chatbot.streamlit.app/)
 ---
 
 ## ✨ Features
