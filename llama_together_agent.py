@@ -7,10 +7,11 @@ from openfda_api import extract_fda_info
 load_dotenv(encoding="utf-16")
 
 api_key = os.environ.get("TOGETHER_API_KEY")
+base_url = "https://api.together.xyz/v1"
 
 client = openai.OpenAI(
     api_key = api_key,
-    base_url = "https://api.together.xyz/v1"
+    base_url = base_url
 )
 
 def medical_chatbot(user_input):
